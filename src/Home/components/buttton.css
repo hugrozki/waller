@@ -1,0 +1,9 @@
+.Settings {
+  bottom: 14px;
+  color: #a5a5a5;
+  cursor: pointer;
+  left: 40px;
+  position: absolute;
+  font-size: 18px;
+  z-index: 2;
+}

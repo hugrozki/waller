@@ -1,0 +1,21 @@
+.Wall {
+  align-items: flex-start;
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.WallItem {
+  width: 20%;
+  height: calc(100vw / 5);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+}
+
+.WallItem.active {
+  filter: grayscale(0);
+}
